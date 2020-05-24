@@ -1,10 +1,13 @@
 body {
     margin-top: 64px;
     background-color: #e5e5e5;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
 
-    width: 80%; /*Ajustando tamanho na tela*/
+    width: 100vw;
+    height: 100vh;
+}
+
+section.container{
     max-width: 980px; /*Largura máxima*/
     margin: 40px auto; /*Ajustando Margem (cima-baixo, laterais)*/
 }
@@ -77,21 +80,18 @@ div.acesso button:hover {
 /* Exercício */
 
 div.items {
-    text-align: center;
     margin-top: 50px;   
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 div.caixas {
     
-    margin-right: 25px;
-    margin-top: 20px;
+    margin: 10px;
     height: 250px;
-    width: 500px;
+    width: 400px;
     padding: 20px;
 
     background-color: white;
@@ -99,7 +99,6 @@ div.caixas {
     border-radius: 8px;
 
     align-items: center;
-
 }
 
 div.caixas .under {
@@ -151,4 +150,12 @@ a {
     outline: none;
 
     font-size: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-justify{
+
 }
