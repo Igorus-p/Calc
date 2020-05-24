@@ -1,0 +1,154 @@
+body {
+    margin-top: 64px;
+    background-color: #e5e5e5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 80%; /*Ajustando tamanho na tela*/
+    max-width: 980px; /*Largura máxima*/
+    margin: 40px auto; /*Ajustando Margem (cima-baixo, laterais)*/
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.acesso li {    
+    font-size: 20px;
+    list-style-type: square;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.acesso a {
+    color: white;
+    text-decoration: none;
+}
+
+.acesso li button {
+    height: 25px;
+    width: 70px;
+    border: none;
+    color: white;
+    background-color: #ff5E84;
+    box-shadow: 0px 8px 16px rgba(255, 94, 132, 0.5);
+    border-radius: 6px;
+    outline: none;
+    font-weight: bold;
+}
+
+div.acesso button:hover {
+    background-color: rgb(253, 69, 112);
+}
+
+/* RELÓGIO */
+
+.rel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rel p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#relogio {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+/* Exercício */
+
+div.items {
+    text-align: center;
+    margin-top: 50px;   
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+
+div.caixas {
+    
+    margin-right: 25px;
+    margin-top: 20px;
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 8px;
+
+    align-items: center;
+
+}
+
+div.caixas .under {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+div.caixas .image {
+    height: 80px;
+    width: 150px;
+
+    grid-column: 2;
+    justify-self: center;
+}
+
+div.caixas p {
+    font-weight: bold;
+}
+
+
+div.caixas .but {
+    margin-top: 30px;
+
+    font-weight: bold;
+
+    background-color: #ff5E84;
+    color: white;
+    border-radius: 8px;
+
+    height: 50px;
+    width: 100px;
+
+    border: none;
+
+    grid-column: 3;
+    justify-self: end;
+}
+
+div.caixas  .but:hover{
+    background-color: rgb(253, 69, 112);
+}
+
+a {
+    color: white;
+
+    text-decoration: none;
+    outline: none;
+
+    font-size: 16px;
+}
